@@ -12,11 +12,11 @@ def add_book(title, author):
 
 add_book("War and Peace", "Tolstoy")
 add_book("Crime and Punishment", "Dostoevsky")
+add_book("a", "a")
 
 #
 # question_seperatior("add book")
 #
-# print(library_books)
 
 def borrow_book(title):
     """Changes the availability of a book to False."""
